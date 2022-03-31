@@ -143,3 +143,9 @@ vault:
     ZF5q4h4I33PSGDdSvGXn9UMY5Isjpg==
     =7pIB
     -----END PGP PUBLIC KEY BLOCK-----
+
+  install_from_repo: False  # Set to True to install package rather than extract archive
+  repo: ... # Might specify a specific repo, if not present in map
+  repo_key: https://... # Where to find repository key
+  package: vault  # If package would have any other name on your repo
+  repo_configfile: '/etc/vault.d/vault.hcl' # If using non-default config file
